@@ -1,0 +1,1 @@
+<?php header('Location: http://1041thefish.com/UpcomingEvents/Fight-Night-Remote-08252012'); ?>

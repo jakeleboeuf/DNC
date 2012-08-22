@@ -1,0 +1,372 @@
+/* Reset everything */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	border: 0;
+	font-size: 100%;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+	}
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+:focus { outline: 0; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; }
+sup { vertical-align:super; }
+
+/* Style Tags */
+body {
+	background:#020202 url(../images/main_bg.v2.jpg) no-repeat center top;
+	color:#fff;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	} 
+
+a, a:visited, a:hover { color:#00a4e4; }
+a:hover { color:#fff; }
+
+a img { border:0; }
+
+h1, h2, h3, h4, h5, h6 {
+	font-size:21px;
+	font-weight:lighter;
+	margin-bottom:10px;
+	}
+h2 { font-size:18px; }
+h3 { font-size:16px; }
+h4 { font-size:14px; }
+h5 { font-size:12px; }
+h6 { font-size:10px; }
+
+p { margin-bottom:10px; }
+p, li, caption, th, td, blockquote, label {
+	font-size:16px;
+	font-weight:lighter;
+    line-height:1.5em;
+	}
+
+ul, ol { list-style:circle; margin-bottom:10px; padding-left:30px; }
+ol { list-style:decimal; }
+
+pre { margin-bottom:10px; white-space:pre; }
+blockquote { margin-bottom:10px; padding-left:30px; }
+hr { background-color:#666; border:0; height:1px; margin:0 0 10px 0; }
+table { margin-bottom:10px; }
+	table caption { font-style:italic; }
+	table th { font-weight:bold; }
+	table td { padding:5px; }
+
+/* Helper Styles */
+.clear { clear:both; }
+	.clear hr { display:none; }
+
+a.blockLink, a.blockLink:visited, a.blockLink:hover, .blockImage {
+	display:block;
+	overflow:hidden;
+	text-indent:1000px;
+	white-space:nowrap;
+	}
+
+/* Page Layout */
+#mainContainer {
+	margin:0 auto;
+	padding:259px 0 60px;
+	position:relative;
+	width:970px;
+	}
+ul#mainMenu {
+	height:84px;
+	left:354px;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:44px;
+	width:616px;
+	}
+	ul#mainMenu li {
+		float:left;
+		height:42px;
+		}
+		ul#mainMenu li a, ul#mainMenu li a:visited, ul#mainMenu li a:hover {
+			background:url(../images/menu.v2.jpg) no-repeat 0 0;
+			display:block;
+			height:42px;
+			}
+		ul#mainMenu li.mnuProgram a, ul#mainMenu li.mnuProgram a:visited, ul#mainMenu li.mnuProgram a:hover {
+            background-position:0 0;
+			width:237px;
+			}
+		ul#mainMenu li.mnuProgram a:hover {
+            background-position:0 -84px;
+            }
+		ul#mainMenu li.mnuLocations a, ul#mainMenu li.mnuLocations a:visited, ul#mainMenu li.mnuLocations a:hover {
+            background-position:-237px 0;
+			width:159px;
+			}
+		ul#mainMenu li.mnuLocations a:hover {
+            background-position:-237px -84px;
+            }
+		ul#mainMenu li.mnuConcierge a, ul#mainMenu li.mnuConcierge a:visited, ul#mainMenu li.mnuConcierge a:hover {
+            background-position:-396px 0;
+			width:220px;
+			}
+		ul#mainMenu li.mnuConcierge a:hover {
+            background-position:-396px -84px;
+            }
+		ul#mainMenu li.mnuHope a, ul#mainMenu li.mnuHope a:visited, ul#mainMenu li.mnuHope a:hover {
+            background-position:0 -42px;
+			width:237px;
+			}
+		ul#mainMenu li.mnuHope a:hover {
+            background-position:0 -126px;
+            }
+		ul#mainMenu li.mnuHelp a, ul#mainMenu li.mnuHelp a:visited, ul#mainMenu li.mnuHelp a:hover {
+            background-position:-237px -42px;
+			width:159px;
+			}
+		ul#mainMenu li.mnuHelp a:hover {
+            background-position:-237px -126px;
+            }
+		ul#mainMenu li.mnuParticipate a, ul#mainMenu li.mnuParticipate a:visited, ul#mainMenu li.mnuParticipate a:hover {
+            background-position:-396px -42px;
+			width:220px;
+			}
+		ul#mainMenu li.mnuParticipate a:hover {
+            background-position:-396px -126px;
+            }
+ul#footerMenu {
+	border-top:1px solid #212122;
+	height:56px;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+	}
+	ul#footerMenu li {
+		color:#41576d;
+		display:inline-block;
+		height:56px;
+		font-size:11px;
+		line-height:56px;
+		padding:0 8px;
+		text-transform:uppercase;
+		}
+		ul#footerMenu li a, ul#footerMenu li a:visited, ul#footerMenu li a:hover {
+			color:#454a4f;
+			text-decoration:none;
+			}
+		ul#footerMenu li a:hover {
+            color:#fff;
+            }
+.content {
+	float:left;
+	padding:0 34px 24px 12px;
+	width:314px;
+	}
+.video {
+	float:left;
+	padding-bottom:24px;
+	width:603px;
+	}
+.divider {
+	border-top:1px solid #212122;
+	clear:both;
+	height:1px;
+	margin-bottom:20px;
+	}
+#hLine {
+	width:57px;
+	display:block;
+	float:left;
+	margin-top: -49px;
+	height:127px;
+	background: url('../images/hline.jpg') no-repeat 0 0;
+	}
+.socialDiv {
+	border-top:1px solid #212122;
+	margin: 15px 0;
+	width: 970px;
+	height: 93px;
+	background: url('../images/socialBig.jpg') no-repeat 0 30px;
+	}
+.socialDiv ul{
+	margin: 28px 0;
+	padding:0;
+	list-style:none;
+	}
+.socialDiv li {
+	display:block;
+	width: 485px;
+	float:left;
+	}
+.socialDiv li a {
+	display:block;
+	text-indent:-99999px;
+	width: 475px;
+	height: 53px;
+	}
+.homeLogos {
+	border-top:1px solid #212122;
+	width: 970px;
+	height: 125px;
+	}
+#flashMob {
+	width: 323px;
+	float: left;
+	display: block;
+	margin-top: -49px;
+	}
+	#flashMob #tag {				
+		margin-top: -12px;
+		font-size: 13px;
+		}
+	#flashMob img {
+		margin-top:-2px;
+		}
+	#flashMob #more {				
+		margin-top: 8px;
+		font-size: 14px;
+		}
+	#beBlue {
+		color:#fff;
+		font-weight: 900;
+		font-size: 22px;
+		text-shadow: 0 0px 3px rgba(255,255,255,0.8);
+		}
+	#beWhite {
+		color:#02a0dc;
+		font-weight: 200;
+		font-size: 22px;
+		text-shadow: 0 0px 3px rgba(2,160,220,0.8);
+		}
+	#beGray {
+		color:#eee;
+		font-weight: 200;
+		font-size: 22px;
+		text-shadow: 0 0px 3px rgba(255,255,255,0.8);
+		}
+.newsletter {
+	background:url(../images/5dates.jpg) no-repeat 0 0;
+	height:78px;
+	margin:30px 0;
+	padding:49px 0 0;
+	width:970px;
+	}
+	.newsletter form {
+		width:590px;
+		display:block;
+		float:left;
+		}
+	.newsletter .field {
+		height:50px;
+		float:left;
+		margin-right:6px;
+		width:354px;
+		}
+		.newsletter .field input {
+			background:transparent;
+			border:0;
+			color:#2c3033;
+			height:50px;
+			font-size:28px;
+			font-weight:lighter;
+			line-height:50px;
+			margin:0;
+			padding:0 18px;
+			text-transform:uppercase;
+			width:319px;
+			}
+	.newsletter .button {
+		height:50px;
+		float:left;
+		width:215px;
+		}
+		.newsletter .button input {
+			height:50px;
+			width:215px;
+			}
+	.newsletter .confirm {
+		clear:both;
+		height:14px;
+		line-height:14px;
+		padding-top:14px;
+		}
+		.newsletter .confirm label {
+			display:block;
+			cursor:pointer;
+			float:left;
+			height:14px;
+			margin-right:8px;
+			overflow:hidden;
+			text-indent:600px;
+			width:553px;
+			}
+			
+
+/* Jakes Styles */
+.social{
+	width:400px;
+	position:absolute;
+	left:38%;
+	display:block;
+	}
+.homeLogos ul {
+	padding:0;
+	margin:15px 0 0 0;
+	}
+.homeLogos ul li{
+	display:inline;
+	}
+.homeLogos ul li a{
+	display:block;
+	width:329px;
+	height: 89px;
+	text-indent: -999999px;
+	float:left;
+	}
+	
+	#dda a{
+		width: 329px;
+		height: 89px;
+		background: url('../images/footLinks.jpg') no-repeat 0px 0px;
+		}
+	#dda a:hover{
+		background: url('../images/footLinks.jpg') no-repeat 0px -95px;
+		}
+	#dtatg a{
+		width: 300px;
+		height: 89px;
+		background: url('../images/footLinks.jpg') no-repeat -330px 0px;	
+		}
+	#dtatg a:hover{
+		background: url('../images/footLinks.jpg') no-repeat -330px -95px;
+		}
+	#cpl2 a{
+		width: 170px;
+		height: 89px;
+		background: url('../images/footLinks.jpg') no-repeat -630px 0px;
+		}
+	#cpl2 a:hover{
+		background: url('../images/footLinks.jpg') no-repeat -630px -95px;
+		}
+	#cfa2 a{
+		width: 170px;
+		height: 89px;
+		background: url('../images/footLinks.jpg') no-repeat -800px 0px;
+		}
+	#cfa2 a:hover{
+		background: url('../images/footLinks.jpg') no-repeat -800px -95px;
+		}

@@ -1,0 +1,251 @@
+/* Reset everything */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	border: 0;
+	font-size: 100%;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+	}
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+:focus { outline: 0; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; }
+sup { vertical-align:super; }
+
+/* Style Tags */
+body { 
+	background:#000;
+	color:#fff;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	} 
+
+a, a:visited, a:hover { color:#00a4e4; }
+a:hover { color:#fff; }
+
+a img { border:0; }
+
+h1, h2, h3, h4, h5, h6 {
+	color:#02a0dc;
+	font-size:41px;
+	font-weight:lighter;
+	margin-bottom:20px;
+	text-transform:uppercase;
+	}
+	h1 span {
+		color:#fff;
+		font-weight:bold;
+		}
+h2 { font-size:18px; }
+h3 { font-size:16px; }
+h4 { font-size:14px; }
+h5 { font-size:12px; }
+h6 { font-size:10px; }
+
+p { margin-bottom:10px; }
+p, li, caption, th, td, blockquote, label {
+	font-size:16px;
+	font-weight:lighter;
+    line-height:1.5em;
+	}
+
+ul, ol { list-style:circle; margin-bottom:10px; padding-left:30px; }
+ol { list-style:decimal; }
+
+pre { margin-bottom:10px; white-space:pre; }
+blockquote { margin-bottom:10px; padding-left:30px; }
+hr { background-color:#666; border:0; height:1px; margin:0 0 10px 0; }
+table { margin-bottom:10px; }
+	table caption { font-style:italic; }
+	table th { font-weight:bold; }
+	table td { padding:5px; }
+
+/* Page Layout */
+#mainContainer {
+	padding:30px 30px 5px;
+	}
+.heading {
+	margin-bottom:20px;
+	}
+
+/* Jake's added Styles */
+.feeting {
+	display:block;
+	padding: 0 50px 0 0;
+	margin: 30px 0 0 -30px;
+	width: 570px;
+	height:500px;
+	background: #ffffff url('../images/foot_logos2.jpg') no-repeat 20px 20px;
+	}
+.feeting ul li{
+	display:inline;
+	}
+.feeting ul li a{
+	display:block;
+	width:200px;
+	height: 40px;
+	text-indent: -999999px;
+	float:left;
+	}
+	#hb {
+		width: 90px;
+		height: 120px;
+		}
+	#dta {
+		width: 174px;
+		height: 120px;
+		}
+	#schuma {
+		margin: 0 10px;
+		width: 250px;
+		height: 120px;
+		}
+	#rs {
+		height: 70px;
+		width: 230px;
+		}
+	#wpbgo {
+		height: 70px;
+		width: 51px;
+		margin: 0 10px;
+		}	
+	#cp {
+		width: 233px;
+		height: 70px;
+		}	
+	
+	#sfacc {
+		height: 126px;
+		width: 178px;
+		}	
+	#gpb {
+		height: 126px;
+		width: 205px;
+		}	
+	#jpc{
+		height: 126px;
+		width: 151px;
+		}
+		
+	#t881{
+		height: 113px;
+		width: 131px;
+		}	
+	#tran{
+		height: 113px;
+		width: 131px;
+		}
+	#t893{
+		height: 113px;
+		width: 131px;
+		}
+	#signs{
+		height: 113px;
+		width: 139px;
+		}
+	#ufg{
+		height: 60px;
+		width: 351px;
+		}
+		
+.clear {clear:both;}
+#terms {
+	margin: 30px 0 0 0;
+	padding: 10px 0;
+	border-top: 1px solid #7f7f7f;
+	font-size: 10px;
+	color: #7F7F7F;
+	}
+.mp {
+	float:left;
+	padding:3px;
+	border: 1px solid #7f7f7f;
+	width: 89px;
+	margin-right: 15px;
+	}
+#map_canvas {
+	}
+.gmnoprint {
+	display:none;
+	}
+.dScrp {
+	float: left;
+	width: 448px;
+	}
+.dScrp h1 {
+	font-size: 28px;
+	padding-bottom: 0px;
+	margin-bottom: 5px;
+	}
+.dScrp h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 17px;
+	color: #fff;
+	}
+.dScrp p {
+	margin:8px 0 0 0;
+	border-top: 1px solid #7f7f7f;
+	padding:8px 0 0;
+	font-size: 10px;
+	color: #7f7f7f;
+	}
+#part h2 {
+	font-size: 25px;
+	margin-bottom: 8px;
+	}
+.links {
+	float:left;
+	width:550px;
+	}
+.links .map {
+	padding: 4px 20px;
+	}
+.links ul{
+	list-style:none;
+	padding:0;
+	margin:15px 0 0;
+	}
+.links li {
+	text-transform: uppercase;
+	display:inline;
+	color: #fff;
+	font-size:12px;
+	background: #2e8abc;
+	padding: 4px 10px;
+	margin: 5px 10px 5px 0;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	}
+.links li a {
+	color: #fff;
+	text-decoration: none;
+	}
+	
+.inlineLogo {
+	width: 120px;
+	float: left;
+	margin-right: 20px;
+	}
+.inlineLogo2 {
+	width: 100px;
+	float: left;
+	margin-right: 20px;
+	}
+.inlineType {
+	text-align: justify;
+	}

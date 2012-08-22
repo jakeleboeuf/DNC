@@ -1,0 +1,136 @@
+<?
+$meta_title = 'Date Night Challenge - West Palm Beach, FL';
+$meta_description = '';
+$meta_keywords = '';
+$meta_robots_index = 'index';
+$meta_robots_follow = 'follow';
+$favicon = '';
+$site_url = '/palmbeach/';
+
+$modal_width = 635;
+$modal_height = 520;
+?>
+<!doctype html> 
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title><?=!empty($meta_title)?$meta_title:$site_name?></title>
+<?
+// Meta description
+if( !empty($meta_description) )
+{
+?>
+<meta name="description" content="<?=$meta_description?>" />
+<?
+}
+
+// Meta keywords
+if( !empty($meta_keywords) )
+{
+?>
+<meta name="keywords" content="<?=$meta_keywords?>" />
+<?
+}
+?>
+<meta name="robots" content="<?=$meta_robots_index?>,<?=$meta_robots_follow?>" />
+<?
+// Fav Icon
+if( !empty($favicon) )
+{
+?>
+<link rel="icon" type="image/vnd.microsoft.icon" href="<?=$favicon?>" />
+<?
+}
+?>
+<link rel="stylesheet" href="<?=$site_url?>styles/common.v2.css">
+<link rel="stylesheet" href="<?=$site_url?>javascript/shadowbox/shadowbox.css">
+<!--[if IE 7]><link rel="stylesheet" href="<?=$site_url?>styles/ie7.css"><![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript" language="javascript"></script>
+<script src="<?=$site_url?>javascript/shadowbox/shadowbox.js" type="text/javascript" language="javascript"></script>
+<script src="<?=$site_url?>javascript/common.js" type="text/javascript" language="javascript"></script>
+<script src="../js/ga_scripts.js" type="text/javascript" language="javascript"></script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=278064572223798";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="mainContainer">
+
+<ul id="mainMenu">
+	<li class="mnuProgram"><a href="<?=$site_url?>modal.php?p=program" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Program</a></li>
+	<li class="mnuLocations"><a href="<?=$site_url?>modal.php?p=locations" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Locations</a></li>
+	<li class="mnuConcierge"><a href="<?=$site_url?>modal.php?p=concierge" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Concierge</a></li>
+	<li class="mnuHope"><a href="<?=$site_url?>modal.php?p=hope-help" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Hope</a></li>
+	<li class="mnuHelp"><a href="<?=$site_url?>modal.php?p=corporate" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Help</a></li>
+	<li class="mnuParticipate"><a href="<?=$site_url?>modal.php?p=participate" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Participate</a></li>
+</ul>
+
+<div class="contentContainer">
+	<div class="content">
+		<? include('content/home.html'); ?>
+	</div>
+	<div class="video">
+		<iframe src="http://player.vimeo.com/video/31350009?title=0&amp;byline=0&amp;portrait=0" width="603" height="334" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+	</div>
+	<div class="divider"></div>
+	
+	<div class="newsletter">
+		<form id="signUpForm" action="http://datenightchallenge.us2.list-manage.com/subscribe/post?u=7a3be828aa943166b2d1710ef&amp;id=a3679e9746" method="post" target="_blank">
+			<div class="field">
+				<input type="text" name="EMAIL" value="E-mail Address" class="clearText" />
+			</div>
+			<div class="button">
+				<input type="image" src="<?=$site_url?>images/spacer.gif" name="btn" value="Search" />
+			</div>
+			<div class="confirm">
+				<label for="iCommit">By checking this box I am committing to take the Date Night Challenge</label>
+				<input type="checkbox" name="agree" id="iCommit" value="Yes" />
+			</div>
+		</form>
+        <div id="hLine"></div>
+        <div id="flashMob">
+            <h2><span id="beGray">THE</span> <span id='beBlue'>DATE</span> <span id="beWhite">NITE</span> <span id="beGray">APP</span></h2>
+            <p id="tag">Is now available for your mobile device!</p>
+            <a href="http://itunes.apple.com/us/app/date-night-challenge-palm/id488858659" id="iTunes" target="_blank">iTunes</a><a href="https://market.android.com/details?id=com.gloo.dnc.palmbeach&feature=search_result#?t=W251bGwsMSwyLDEsImNvbS5nbG9vLmRuYy5wYWxtYmVhY2giXQ" id="gMark" target="_blank">Google Marketplace</a>
+        </div>
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="socialDiv">
+	<ul>
+    	<li><a href="http://www.facebook.com/DateNightChallengePalmBeach" target="_blank">facebook</a></li>
+        <li><a href="https://twitter.com/#!/DateNightSpark" target="_blank">twitter</a></li>
+    </ul>
+</div>
+<div class="homeLogos">
+	<ul>
+    	<li id="dda"><a href="http://wpbgo.com/" target="_blank">01</a></li>
+    	<li id="dtatg"><a href="http://downtownatthegardens.com/" target="_blank">02</a></li>
+    	<li id="cpl2"><a href="http://cityplace.com" target="_blank">03</a></li>
+    	<li id="cfa2"><a href="http://chick-fil-a.com" target="_blank">04</a></li>
+    </ul>
+</div>
+<ul id="footerMenu">
+	<li>Copyright Date Night Challenge, LLC. All Rights Reserved.</li>
+	<li><a href="<?=$site_url?>modal.php?p=contact" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Contact</a></li>
+	<li><a href="<?=$site_url?>modal.php?p=about" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">About</a></li>
+	<li><a href="<?=$site_url?>modal.php?p=legal" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Legal</a></li>
+</ul>
+
+<div class="social">
+    <div style="display:block; margin-top:-1px;float:left;" class="fb-like" data-href="http://www.facebook.com/DateNightChallengePalmBeach" data-send="false" data-layout="button_count" data-width="100" data-show-faces="true"></div>
+    <div style="display:block; margin-top:-1px;float:left;"><a href="https://twitter.com/datenightspark" class="twitter-follow-button" data-show-count="true" data-lang="en" data-show-screen-name="false">Follow @datenightspark</a></div>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+
+</div>
+	
+	
+</body>
+</html>
+
