@@ -2,7 +2,7 @@
 $meta_title = 'Date Night PDX';
 $meta_robots_index = 'index';
 $meta_robots_follow = 'follow';
-$site_url = '/';
+$site_url = 'http://localhost:8888/dnc_web/example/';
 
 $page = isset($_GET['p']) ? $_GET['p'] : '';
 ?>
