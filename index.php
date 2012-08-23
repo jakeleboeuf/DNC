@@ -5,7 +5,7 @@ $meta_keywords = 'Date Night, Date, Denver, CO, Colorado, Marriage, Commitment, 
 $meta_robots_index = 'index';
 $meta_robots_follow = 'follow';
 $favicon = '';
-$site_url = 'http://localhost:8888/dnc_web/example/';
+$site_url = 'http://dev.jklb.co/denver/';
 
 $modal_width = 750;
 $modal_height = 520;
@@ -66,14 +66,14 @@ if( !empty($favicon) )
 <div id="mainContainer">
 
 <ul id="mainMenu">
-	<li class="mnuProgram"><a href="<?=$site_url?>modal.php?p=program" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Program</a></li>
-	<li class="mnuLocations"><a href="http://pdx.makeadatenight.com/?page_id=87" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Deals</a></li>
-	<li class="mnuConcierge"><a href="http://pdx.makeadatenight.com/?page_id=106" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Events</a></li>
+	<li class="mnuProgram"><a href="<?=$site_url?>modal.php?p=about" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Program</a></li>
+	<li class="mnuLocations"><a href="<?=$site_url?>modal.php?p=program" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Deals</a></li>
+	<li class="mnuConcierge"><a href="http://pdx.makeadatenight.com/?page_id=87" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Events</a></li>
 	<li class="mnuFight"><a href="http://pdx.makeadatenight.com/?page_id=106" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">The Good Fight</a></li>
-	<li class="mnuHope"><a href="<?=$site_url?>modal.php?p=support" class="blockLink" rel="shadowbox;width=750;height=<?=$modal_height?>">Support</a></li>
+	<li class="mnuHope"><a href="http://www.facebook.com/DateNightDenver" class="blockLink" target="_blank">Support</a></li>
 	<li class="mnuHelp"><a href="https://www.couplecheckup.com/launch/go_nwfs.html" class="blockLink" rel="shadowbox;width=750;height=<?=$modal_height?>">Couples Checkup</a></li>
 	<li class="mnuParticipate"><a href="http://partners.datenightpdx.org" class="blockLink" rel="shadowbox;width=645;height=<?=$modal_height?>">Participate</a></li>
-	<li class="mnuKick"><a href="https://www.couplecheckup.com/launch/go_nwfs.html" class="blockLink" rel="shadowbox;width=750;height=<?=$modal_height?>">Kickoff</a></li>
+	<li class="mnuKick"><a href="http://fight-night.eventbrite.com" rel="shadowbox;width=970;height=<?=$modal_height?>" class="blockLink">Kickoff</a></li>
 </ul>
 
 <div class="contentContainer">
@@ -91,7 +91,7 @@ if( !empty($favicon) )
 					<p>Go on Three Dates in Three Weeks beginning September 10, 2012.  Your relationship needs YOU! <a href="/modal.php?p=program" rel="shadowbox;width=635;height=520">Downloading the APP</a> helps you design, discover, develop and deepen your Relationships. <strong>Get your Date night on!</strong></p>
 				</div><!-- copy-left -->
 				<div class="video">
-					<a href="<?=$site_url?>modal.php?p=slide_01" rel="shadowbox;width=800;height=450"><img src="<?=$site_url?>images/pdx_video.png" /></a>
+					<a href="<?=$site_url?>modal.php?p=slide_01" rel="shadowbox;width=800;height=450"><img src="<?=$site_url?>images/video_01.png" /></a>
 				</div><!-- video -->
 			</div><!-- slide_01 -->
 			
@@ -125,13 +125,13 @@ if( !empty($favicon) )
 			
 			<div class="slide_04">
 				<div class="content">
-					<h1>Couple Checkup</h1>
-					<h4 style="margin-top:-5px;margin-bottom:15px;">by Prepare &amp; Enrich</h4>
-					<p>The Couple Checkup is a highly respected and nationally recognized relationship assessment tool used by professional counselors and therapists. The checkup normally costs $29 per couple, but Date Night PDX invites you to take the checkup for FREE by clicking on the provided link and entering this code: <b><em>DATENT-CKUP-2TFFWA</em></b></p>
-					<p style="font-size:12px;">The assessment takes approximately 20 minutes to complete and the feedback you receive is designed to be constructive and encouraging. Couple Checkup has helped thousands take their relationship to a greater level of satisfaction and fulfillment. Take the checkup!</p>
+					<h1>3 Dates - 3 Weeks</h1>
+					<h4 style="margin-top:-5px;margin-bottom:15px;">Get your Date night on!</h4>
+					<p>Suspendisse urna lacus, aliquam at molestie vitae, rutrum id elit. Maecenas iaculis nulla ut turpis lobortis et ornare massa iaculis. Nunc lorem urna, imperdiet quis ultrices non.</p>
+					<p style="font-size:12px;">Nulla lorem eros, vulputate eget pulvinar sed, placerat eget dolor. Cras a metus porttitor leo molestie blandit quis nec lectus.</p>
 				</div><!-- copy-left -->
 				<div class="video">
-					<a href="https://www.couplecheckup.com/launch/go_nwfs.html" rel="shadowbox;width=750;height=<?=$modal_height?>"><img src="<?=$site_url?>images/slide_04.png" alt="TAKE THE COUPLES CHECKUP"/></a>
+					<a href="http://datenightpdx.us5.list-manage.com/subscribe/post?u=ef7a1e615a3f8ca0fadd65bb0&amp;id=116092cd53" rel="shadowbox;width=750;height=<?=$modal_height?>"><img src="<?=$site_url?>images/3_dates.png" alt="TAKE THE COUPLES CHECKUP"/></a>
 				</div><!-- video -->
 			</div><!-- slide_04 -->
 		
@@ -165,8 +165,8 @@ if( !empty($favicon) )
 </div>
 <div class="socialDiv">
 	<ul>
-    	<li><a href="https://www.facebook.com/groups/371633999558621/" target="_blank">facebook</a></li>
-        <li><a href="http://twitter.com/datenightpdx" target="_blank">twitter</a></li>
+    	<li><a href="http://www.facebook.com/DateNightDenver" target="_blank">facebook</a></li>
+        <li><a href="http://twitter.com/datenightdenver" target="_blank">twitter</a></li>
     </ul>
 </div>
 <ul id="footerMenu">
