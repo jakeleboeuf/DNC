@@ -173,7 +173,7 @@ if( !empty($favicon) )
 	<li>Copyright Date Night PDX. All Rights Reserved.</li>
 	<li><a href="<?=$site_url?>modal.php?p=contact" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Contact</a></li>
 	<li><a href="<?=$site_url?>modal.php?p=about" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">About</a></li>
-	<li><a href="<?=$site_url?>TERMSOFSERVICEDateNightPDX.doc.pdf" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Legal</a></li>
+	<li><a href="<?=$site_url?>modal.php?p=legal" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Legal</a></li>
 </ul>
 
 <div class="social">
