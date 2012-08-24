@@ -71,7 +71,7 @@ if( !empty($favicon) )
 	<li class="mnuConcierge"><a href="http://denver.makeadatenight.com/" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Events</a></li>
 	<li class="mnuFight"><a href="http://www.atasteofcolorado.com/" class="blockLink" target="_blank">Kickoff</a></li>
 	<li class="mnuHope"><a href="http://www.facebook.com/DateNightDenver" class="blockLink" target="_blank">Support</a></li>
-	<li class="mnuHelp"><a href="https://www.couplecheckup.com/launch/go_nwfs.html" class="blockLink" rel="shadowbox;width=750;height=<?=$modal_height?>">Couples Checkup</a></li>
+	<li class="mnuHelp"><a href="http://www.myrelationshipcenter.org/Marry-Well" class="blockLink" rel="shadowbox;width=750;height=<?=$modal_height?>">Couples Checkup</a></li>
 	<li class="mnuParticipate"><a href="http://datenightworks.wufoo.com/forms/m7x3q1/" class="blockLink" rel="shadowbox;width=645;height=<?=$modal_height?>">Participate</a></li>
 	<li class="mnuKick"><a href="http://fight-night.eventbrite.com" rel="shadowbox;width=970;height=<?=$modal_height?>" class="blockLink">The Good Fight</a></li>
 </ul>
@@ -127,8 +127,11 @@ if( !empty($favicon) )
 				<div class="content">
 					<h1>3 Dates - 3 Weeks</h1>
 					<h4 style="margin-top:-5px;margin-bottom:15px;">Get your Date night on!</h4>
-					<p>Suspendisse urna lacus, aliquam at molestie vitae, rutrum id elit. Maecenas iaculis nulla ut turpis lobortis et ornare massa iaculis. Nunc lorem urna, imperdiet quis ultrices non.</p>
-					<p style="font-size:12px;">Nulla lorem eros, vulputate eget pulvinar sed, placerat eget dolor. Cras a metus porttitor leo molestie blandit quis nec lectus.</p>
+					<p>Join the thousands of couples that will sign up to take the 3 Dates 3 Week Challenge </p>
+					<p>1. Register for FREE here</p>
+					<p>2. Download the FREE Date Night Denver App</p>
+					<p>3. GET  YOUR DATE NIGHT ON!</p>
+					<p>FREE Date Night Deals, Ideas &amp; Conversations are just a <a href="http://eepurl.com/oPtLT" rel="shadowbox;width=750;height=<?=$modal_height?>">click</a> away!</p>
 				</div><!-- copy-left -->
 				<div class="video">
 					<a href="http://eepurl.com/oPtLT" rel="shadowbox;width=750;height=<?=$modal_height?>"><img src="<?=$site_url?>images/3_dates.png" alt="TAKE THE COUPLES CHECKUP"/></a>
