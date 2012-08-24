@@ -128,7 +128,7 @@ ul#mainMenu {
 	margin:0;
 	padding:0;
 	position:absolute;
-	top:38px;
+	top:36px;
 	width:916px;
 	}
 	ul#mainMenu li {
@@ -142,7 +142,7 @@ ul#mainMenu {
 			}
 		ul#mainMenu li.mnuProgram a, ul#mainMenu li.mnuProgram a:visited, ul#mainMenu li.mnuProgram a:hover {
             background-position:0 0;
-			width:217px;
+			width:207px;
 			}
 		ul#mainMenu li.mnuProgram a:hover {
             background-position:0 -84px;
@@ -163,7 +163,7 @@ ul#mainMenu {
             }
 		ul#mainMenu li.mnuHope a, ul#mainMenu li.mnuHope a:visited, ul#mainMenu li.mnuHope a:hover {
             background-position:0 -42px;
-			width:217px;
+			width:207px;
 			}
 		ul#mainMenu li.mnuHope a:hover {
             background-position:0 -126px;
