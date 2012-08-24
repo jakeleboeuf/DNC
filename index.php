@@ -73,7 +73,7 @@ if( !empty($favicon) )
 	<li class="mnuHope"><a href="http://www.facebook.com/DateNightDenver" class="blockLink" target="_blank">Support</a></li>
 	<li class="mnuHelp"><a href="https://www.couplecheckup.com/launch/go_nwfs.html" class="blockLink" rel="shadowbox;width=750;height=<?=$modal_height?>">Couples Checkup</a></li>
 	<li class="mnuParticipate"><a href="http://datenightworks.wufoo.com/forms/m7x3q1/" class="blockLink" rel="shadowbox;width=645;height=<?=$modal_height?>">Participate</a></li>
-	<li class="mnuKick"><a href="http://fight-night.eventbrite.com" rel="shadowbox;width=970;height=<?=$modal_height?>" class="blockLink">Kickoff</a></li>
+	<li class="mnuKick"><a href="http://www.atasteofcolorado.com/" target="_blank" class="blockLink">Kickoff</a></li>
 </ul>
 
 <div class="contentContainer">
