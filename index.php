@@ -69,11 +69,11 @@ if( !empty($favicon) )
 	<li class="mnuProgram"><a href="<?=$site_url?>modal.php?p=about" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Program</a></li>
 	<li class="mnuLocations"><a href="<?=$site_url?>modal.php?p=program" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Deals</a></li>
 	<li class="mnuConcierge"><a href="http://denver.makeadatenight.com/" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Events</a></li>
-	<li class="mnuFight"><a href="http://pdx.makeadatenight.com/?page_id=106" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">The Good Fight</a></li>
+	<li class="mnuFight"><a href="hhttp://www.atasteofcolorado.com/" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Kickoff</a></li>
 	<li class="mnuHope"><a href="http://www.facebook.com/DateNightDenver" class="blockLink" target="_blank">Support</a></li>
 	<li class="mnuHelp"><a href="https://www.couplecheckup.com/launch/go_nwfs.html" class="blockLink" rel="shadowbox;width=750;height=<?=$modal_height?>">Couples Checkup</a></li>
 	<li class="mnuParticipate"><a href="http://datenightworks.wufoo.com/forms/m7x3q1/" class="blockLink" rel="shadowbox;width=645;height=<?=$modal_height?>">Participate</a></li>
-	<li class="mnuKick"><a href="http://www.atasteofcolorado.com/" target="_blank" class="blockLink">Kickoff</a></li>
+	<li class="mnuKick"><a href="http://fight-night.eventbrite.com" rel="shadowbox;width=970;height=<?=$modal_height?>" class="blockLink">The Good Fight</a></li>
 </ul>
 
 <div class="contentContainer">
