@@ -68,11 +68,11 @@ if( !empty($favicon) )
 <ul id="mainMenu">
 	<li class="mnuProgram"><a href="<?=$site_url?>modal.php?p=about" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Program</a></li>
 	<li class="mnuLocations"><a href="<?=$site_url?>modal.php?p=program" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Deals</a></li>
-	<li class="mnuConcierge"><a href="http://pdx.makeadatenight.com/?page_id=87" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Events</a></li>
+	<li class="mnuConcierge"><a href="http://denver.makeadatenight.com/" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">Events</a></li>
 	<li class="mnuFight"><a href="http://pdx.makeadatenight.com/?page_id=106" class="blockLink" rel="shadowbox;width=<?=$modal_width?>;height=<?=$modal_height?>">The Good Fight</a></li>
 	<li class="mnuHope"><a href="http://www.facebook.com/DateNightDenver" class="blockLink" target="_blank">Support</a></li>
 	<li class="mnuHelp"><a href="https://www.couplecheckup.com/launch/go_nwfs.html" class="blockLink" rel="shadowbox;width=750;height=<?=$modal_height?>">Couples Checkup</a></li>
-	<li class="mnuParticipate"><a href="http://partners.datenightpdx.org" class="blockLink" rel="shadowbox;width=645;height=<?=$modal_height?>">Participate</a></li>
+	<li class="mnuParticipate"><a href="http://datenightworks.wufoo.com/forms/m7x3q1/" class="blockLink" rel="shadowbox;width=645;height=<?=$modal_height?>">Participate</a></li>
 	<li class="mnuKick"><a href="http://fight-night.eventbrite.com" rel="shadowbox;width=970;height=<?=$modal_height?>" class="blockLink">Kickoff</a></li>
 </ul>
 
@@ -131,7 +131,7 @@ if( !empty($favicon) )
 					<p style="font-size:12px;">Nulla lorem eros, vulputate eget pulvinar sed, placerat eget dolor. Cras a metus porttitor leo molestie blandit quis nec lectus.</p>
 				</div><!-- copy-left -->
 				<div class="video">
-					<a href="http://datenightpdx.us5.list-manage.com/subscribe/post?u=ef7a1e615a3f8ca0fadd65bb0&amp;id=116092cd53" rel="shadowbox;width=750;height=<?=$modal_height?>"><img src="<?=$site_url?>images/3_dates.png" alt="TAKE THE COUPLES CHECKUP"/></a>
+					<a href="http://eepurl.com/oPtLT" rel="shadowbox;width=750;height=<?=$modal_height?>"><img src="<?=$site_url?>images/3_dates.png" alt="TAKE THE COUPLES CHECKUP"/></a>
 				</div><!-- video -->
 			</div><!-- slide_04 -->
 		
@@ -142,7 +142,7 @@ if( !empty($favicon) )
 	<div class="divider"></div>
 	
 	<div class="newsletter">
-		<form id="signUpForm" action="http://datenightpdx.us5.list-manage.com/subscribe/post?u=ef7a1e615a3f8ca0fadd65bb0&amp;id=116092cd53" method="post" target="_blank">
+		<form id="signUpForm" action="http://datenightdenver.us5.list-manage.com/subscribe/post?u=b6276d88b79fa6d75e99f2ba6&amp;id=4f4348f437" method="post" target="_blank">
 			<div class="field">
 				<input type="text" name="EMAIL" value="E-mail Address" class="clearText" />
 			</div>
@@ -158,7 +158,7 @@ if( !empty($favicon) )
         <div id="flashMob">
             <h2><span id="beGray">THE</span> <span id='beBlue'>DATE</span> <span id="beWhite">NIGHT</span> <span id="beGray">APP</span></h2>
             <p id="tag">Is now available for your mobile device!</p>
-            <a href="http://itunes.apple.com/us/app/date-night-pdx/id547276386?ls=1&mt=8" id="iTunes" target="_blank">iTunes</a><a href="https://play.google.com/store/apps/details?id=com.gloo.dnc.pdx&feature=more_from_developer#?t=W251bGwsMSwyLDEwMiwiY29tLmdsb28uZG5jLnBkeCJd" id="gMark" target="_blank">Google Marketplace</a>
+            <a href="http://itunes.apple.com/us/app/date-night-denver/id554323779?ls=1&mt=8" id="iTunes" target="_blank">iTunes</a><a href="https://play.google.com/store/apps/details?id=com.gloo.dnc.denver&feature=nav_result#?t=W251bGwsMSwxLDMsImNvbS5nbG9vLmRuYy5kZW52ZXIiXQ" id="gMark" target="_blank">Google Marketplace</a>
         </div>
 	</div>
 	<div class="clear"></div>
