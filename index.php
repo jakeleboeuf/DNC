@@ -88,7 +88,7 @@ if( !empty($favicon) )
 				<div class="content">
 					<h1>The Date Night Denver wants<br/>to know...</h1>
 					<p>When was your last Date? How you answer that question will speak volumes about your most important relationship? Why? Good relationships don’t just happen.  Intentional fun, planned time and strong skills improve relationships between couples, parents and children, co-workers, family and friends.</p>
-					<p>Go on Three Dates in Three Weeks beginning September 10, 2012.  Your relationship needs YOU! <a href="/modal.php?p=program" rel="shadowbox;width=635;height=520">Downloading the APP</a> helps you design, discover, develop and deepen your Relationships. <strong>Get your Date night on!</strong></p>
+					<p>Go on Three Dates in Three Weeks beginning September 10, 2012.  Your relationship needs YOU! <a href="<?=$site_url?>modal.php?p=program" rel="shadowbox;width=635;height=520">Downloading the APP</a> helps you design, discover, develop and deepen your Relationships. <strong>Get your Date night on!</strong></p>
 				</div><!-- copy-left -->
 				<div class="video">
 					<a href="<?=$site_url?>modal.php?p=slide_01" rel="shadowbox;width=800;height=450"><img src="<?=$site_url?>images/video_01.png" /></a>
