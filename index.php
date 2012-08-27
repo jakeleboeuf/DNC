@@ -73,7 +73,11 @@ if( !empty($favicon) )
 	<li class="mnuHope"><a href="http://www.facebook.com/DateNightDenver" class="blockLink" target="_blank">Support</a></li>
 	<li class="mnuHelp"><a href="http://www.myrelationshipcenter.org/Marry-Well" class="blockLink" rel="shadowbox;width=1000;height=<?=$modal_height?>">Couples Checkup</a></li>
 	<li class="mnuParticipate"><a href="http://datenightworks.wufoo.com/forms/m7x3q1/" class="blockLink" rel="shadowbox;width=645;height=<?=$modal_height?>">Participate</a></li>
+<<<<<<< HEAD
 	<li class="mnuKick"><a href="http://fight-night.eventbrite.com" rel="shadowbox;width=970;height=<?=$modal_height?>" class="blockLink">The Good Fight</a></li>
+=======
+	<li class="mnuKick"><a href="http://datenightdenver.eventbrite.com" rel="shadowbox;width=970;height=<?=$modal_height?>" class="blockLink">Kickoff</a></li>
+>>>>>>> denver
 </ul>
 
 <div class="contentContainer">
@@ -88,7 +92,11 @@ if( !empty($favicon) )
 				<div class="content">
 					<h1>The Date Night Denver wants<br/>to know...</h1>
 					<p>When was your last Date? How you answer that question will speak volumes about your most important relationship? Why? Good relationships don’t just happen.  Intentional fun, planned time and strong skills improve relationships between couples, parents and children, co-workers, family and friends.</p>
+<<<<<<< HEAD
 					<p>Go on Three Dates in Three Weeks beginning September 10, 2012.  Your relationship needs YOU! <a href="<?=$site_url?>modal.php?p=program" rel="shadowbox;width=635;height=520">Downloading the APP</a> helps you design, discover, develop and deepen your Relationships. <strong>Get your Date night on!</strong></p>
+=======
+					<p>Go on Three Dates in Three Weeks beginning September 10, 2012.  Your relationship needs YOU! <a href="/modal.php?p=program" rel="shadowbox;width=635;height=520">Downloading the App</a> helps you design, discover, develop and deepen your Relationships. <strong>Get your Date night on!</strong></p>
+>>>>>>> denver
 				</div><!-- copy-left -->
 				<div class="video">
 					<a href="<?=$site_url?>modal.php?p=slide_01" rel="shadowbox;width=800;height=450"><img src="<?=$site_url?>images/video_01.png" /></a>
@@ -98,7 +106,7 @@ if( !empty($favicon) )
 			<div class="slide_02">
 				<div class="content">
 					<h1>USA TODAY:</h1>
-					<p><em>“The Results Are In! People who have "couple time" at least weekly were 3.5 times more likely to report being "very happy" in their relationship.”</em></p>
+					<p><em>“The results are in! People who have "couple time" at least weekly were 3.5 times more likely to report being "very happy" in their relationship.”</em></p>
 					<p>Learn more at <a href="http://www.usatoday.com/news/health/wellness/marriage/story/2012-02-06/Date-night-can-improve-marriage-sexual-satisfaction/52994442/1">USA TODAY</a>.</p>
 				</div><!-- copy-left -->
 				<div class="video">
@@ -114,12 +122,12 @@ if( !empty($favicon) )
 						<p style="font-size:10px;">Date: Friday, August 28th<br/>
 							Time: 7-9:30 pm<br/>
 							Location: TBD</p>
-						<p style="font-size:10px;"> <a href="http://fight-night.eventbrite.com" rel="shadowbox;width=970;height=<?=$modal_height?>">Register for FREE</a><br/>
+						<p style="font-size:10px;"> <a href="http://datenightdenver.eventbrite.com" rel="shadowbox;width=970;height=<?=$modal_height?>">Register for FREE</a><br/>
 							*No childcare will be provided<br/>
 					</div>
 				</div><!-- copy-left -->
 				<div class="video">
-					<a href="http://fight-night.eventbrite.com" rel="shadowbox;width=970;height=<?=$modal_height?>"><img src="<?=$site_url?>images/fightNight.png" alt="FIGHT NIGHT"/></a>
+					<a href="http://datenightdenver.eventbrite.com" rel="shadowbox;width=970;height=<?=$modal_height?>"><img src="<?=$site_url?>images/fightNight.png" alt="FIGHT NIGHT"/></a>
 				</div><!-- video -->
 			</div><!-- slide_03 -->
 			
@@ -127,11 +135,24 @@ if( !empty($favicon) )
 				<div class="content">
 					<h1>3 Dates - 3 Weeks</h1>
 					<h4 style="margin-top:-5px;margin-bottom:15px;">Get your Date night on!</h4>
+<<<<<<< HEAD
 					<p>Join the thousands of couples that will sign up to take the 3 Dates 3 Week Challenge </p>
 					<p>1. Register for FREE here</p>
 					<p>2. Download the FREE Date Night Denver App</p>
 					<p>3. GET  YOUR DATE NIGHT ON!</p>
 					<p>FREE Date Night Deals, Ideas &amp; Conversations are just a <a href="http://eepurl.com/oPtLT" rel="shadowbox;width=750;height=<?=$modal_height?>">click</a> away!</p>
+=======
+					<p>Join the thousands of couples that will sign up to take the 3 dates in 3 weeks challenge and be entered to win a special Denver Date Night Package for you and your significant other.</p>
+					<h4>Denver Date Night Package</h4>
+					<ul>
+						<li style="font-size:12px;">Dinner at The Broker</li>
+						<li style="font-size:12px;">1 Night at the Denver Hilton Garden Inn (includes breakfast and valet parking)</li>
+						<li style="font-size:12px;">VIP ringside seats to the Good Fight</li>
+						<li style="font-size:12px;">Autographed copy of the book “The Good Fight”</li>
+						<li style="font-size:12px;">Backstage meet and greet with Les and Leslie Parrott</li>
+					</ul>
+					<p style="font-size:12px;">Enter by signing up to take the challenge and <a href="/modal.php?p=program" rel="shadowbox;width=635;height=520">downloading the app today!</a></p>
+>>>>>>> denver
 				</div><!-- copy-left -->
 				<div class="video">
 					<a href="http://eepurl.com/oPtLT" rel="shadowbox;width=750;height=<?=$modal_height?>"><img src="<?=$site_url?>images/3_dates.png" alt="TAKE THE COUPLES CHECKUP"/></a>
