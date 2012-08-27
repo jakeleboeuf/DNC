@@ -5,7 +5,7 @@ $meta_keywords = 'Date Night, Date, Denver, CO, Colorado, Marriage, Commitment, 
 $meta_robots_index = 'index';
 $meta_robots_follow = 'follow';
 $favicon = '';
-$site_url = 'http://dev.jklb.co/denver/';
+$site_url = 'http://localhost:8888/dnc_web/example/';
 
 $modal_width = 750;
 $modal_height = 520;
@@ -128,11 +128,6 @@ if( !empty($favicon) )
 				<div class="content">
 					<h1>3 Dates - 3 Weeks</h1>
 					<h4 style="margin-top:-5px;margin-bottom:15px;">Get your Date night on!</h4>
-					<p>Join the thousands of couples that will sign up to take the 3 Dates 3 Week Challenge </p>
-					<p>1. Register for FREE here</p>
-					<p>2. Download the FREE Date Night Denver App</p>
-					<p>3. GET  YOUR DATE NIGHT ON!</p>
-					<p>FREE Date Night Deals, Ideas &amp; Conversations are just a <a href="http://eepurl.com/oPtLT" rel="shadowbox;width=750;height=<?=$modal_height?>">click</a> away!</p>
 					<p>Join the thousands of couples that will sign up to take the 3 dates in 3 weeks challenge and be entered to win a special Denver Date Night Package for you and your significant other.</p>
 					<h4>Denver Date Night Package</h4>
 					<ul>
