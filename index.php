@@ -73,7 +73,7 @@ if( !empty($favicon) )
 	<li class="mnuHope"><a href="http://www.facebook.com/DateNightDenver" class="blockLink" target="_blank">Support</a></li>
 	<li class="mnuHelp"><a href="https://www.couplecheckup.com/launch/go_nwfs.html" class="blockLink" rel="shadowbox;width=750;height=<?=$modal_height?>">Couples Checkup</a></li>
 	<li class="mnuParticipate"><a href="http://datenightworks.wufoo.com/forms/m7x3q1/" class="blockLink" rel="shadowbox;width=645;height=<?=$modal_height?>">Participate</a></li>
-	<li class="mnuKick"><a href="http://fight-night.eventbrite.com" rel="shadowbox;width=970;height=<?=$modal_height?>" class="blockLink">Kickoff</a></li>
+	<li class="mnuKick"><a href="http://datenightdenver.eventbrite.com" rel="shadowbox;width=970;height=<?=$modal_height?>" class="blockLink">Kickoff</a></li>
 </ul>
 
 <div class="contentContainer">
@@ -114,12 +114,12 @@ if( !empty($favicon) )
 						<p style="font-size:10px;">Date: Friday, August 28th<br/>
 							Time: 7-9:30 pm<br/>
 							Location: TBD</p>
-						<p style="font-size:10px;"> <a href="http://fight-night.eventbrite.com" rel="shadowbox;width=970;height=<?=$modal_height?>">Register for FREE</a><br/>
+						<p style="font-size:10px;"> <a href="http://datenightdenver.eventbrite.com" rel="shadowbox;width=970;height=<?=$modal_height?>">Register for FREE</a><br/>
 							*No childcare will be provided<br/>
 					</div>
 				</div><!-- copy-left -->
 				<div class="video">
-					<a href="http://fight-night.eventbrite.com" rel="shadowbox;width=970;height=<?=$modal_height?>"><img src="<?=$site_url?>images/fightNight.png" alt="FIGHT NIGHT"/></a>
+					<a href="http://datenightdenver.eventbrite.com" rel="shadowbox;width=970;height=<?=$modal_height?>"><img src="<?=$site_url?>images/fightNight.png" alt="FIGHT NIGHT"/></a>
 				</div><!-- video -->
 			</div><!-- slide_03 -->
 			
