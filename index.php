@@ -5,7 +5,7 @@ $meta_keywords = 'Date Night, Date, Denver, CO, Colorado, Marriage, Commitment, 
 $meta_robots_index = 'index';
 $meta_robots_follow = 'follow';
 $favicon = '';
-$site_url = 'http://localhost:8888/dnc_web/example/';
+$site_url = 'http://dev.jklb.co/denver/';
 
 $modal_width = 750;
 $modal_height = 520;
