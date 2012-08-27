@@ -111,9 +111,11 @@ if( !empty($favicon) )
 					<h1>Learn to Fight Fair with the One You Love.</h1>
 					<p style="font-size:14px;">“Fight Night,” is a FREE event designed to address relationship issues with a wildly funny and engaging twist...The speakers, married relationship therapists Drs. Les and Leslie Parrott, pretend to “Duke-it-out” while sharing how-to’s for healthy conflict resolution. The Parrotts have been guests on Oprah, The View, The Early Show, CNN and other nationally syndicated TV and radio programs.</p>
 					<div>
+						<!-- 
 						<p style="font-size:10px;">Date: Friday, August 28th<br/>
 							Time: 7-9:30 pm<br/>
 							Location: TBD</p>
+						-->
 						<p style="font-size:10px;"> <a href="http://datenightdenver.eventbrite.com" rel="shadowbox;width=970;height=<?=$modal_height?>">Register for FREE</a><br/>
 							*No childcare will be provided<br/>
 					</div>
