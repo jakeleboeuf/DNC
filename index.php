@@ -89,7 +89,7 @@ if( !empty($favicon) )
 				<div class="content">
 					<h1>The Date Night Denver wants<br/>to know...</h1>
 					<p>When was your last Date? How you answer that question will speak volumes about your most important relationship? Why? Good relationships don’t just happen.  Intentional fun, planned time and strong skills improve relationships between couples, parents and children, co-workers, family and friends.</p>
-					<p>Go on Three Dates in Three Weeks beginning September 10, 2012.  Your relationship needs YOU! <a href="/modal.php?p=program" rel="shadowbox;width=635;height=520">Downloading the App</a> helps you design, discover, develop and deepen your Relationships. <strong>Get your Date night on!</strong></p>
+					<p>Go on Three Dates in Three Weeks beginning September 10, 2012.  Your relationship needs YOU! <a href="<?=$site_url?>modal.php?p=program" rel="shadowbox;width=635;height=520">Downloading the App</a> helps you design, discover, develop and deepen your Relationships. <strong>Get your Date night on!</strong></p>
 				</div><!-- copy-left -->
 				<div class="video">
 					<a href="<?=$site_url?>modal.php?p=slide_01" rel="shadowbox;width=800;height=450"><img src="<?=$site_url?>images/video_01.png" /></a>
@@ -137,7 +137,7 @@ if( !empty($favicon) )
 						<li style="font-size:12px;">Autographed copy of the book “The Good Fight”</li>
 						<li style="font-size:12px;">Backstage meet and greet with Les and Leslie Parrott</li>
 					</ul>
-					<p style="font-size:12px;">Enter by signing up to take the challenge and <a href="/modal.php?p=program" rel="shadowbox;width=635;height=520">downloading the app today!</a></p>
+					<p style="font-size:12px;">Enter by signing up to take the challenge and <a href="<?=$site_url?>modal.php?p=program" rel="shadowbox;width=635;height=520">downloading the app today!</a></p>
 				</div><!-- copy-left -->
 				<div class="video">
 					<a href="http://eepurl.com/oPtLT" rel="shadowbox;width=750;height=<?=$modal_height?>"><img src="<?=$site_url?>images/3_dates.png" alt="TAKE THE COUPLES CHECKUP"/></a>
