@@ -166,9 +166,7 @@ if( !empty($favicon) )
 		</form>
         <div id="hLine"></div>
         <div id="flashMob">
-            <h2><span id="beGray">THE</span> <span id='beBlue'>DATE</span> <span id="beWhite">NIGHT</span> <span id="beGray">APP</span></h2>
-            <p id="tag">Is now available for your mobile device!</p>
-            <a href="http://itunes.apple.com/us/app/date-night-denver/id554323779?ls=1&mt=8" id="iTunes" target="_blank">iTunes</a><a href="https://play.google.com/store/apps/details?id=com.gloo.dnc.denver&feature=nav_result#?t=W251bGwsMSwxLDMsImNvbS5nbG9vLmRuYy5kZW52ZXIiXQ" id="gMark" target="_blank">Google Marketplace</a>
+            <a href="http://gloo.us/join/c0e4d3a80422"><img src="images/327x160.png" width="327px" height="160px"></a>
         </div>
 	</div>
 	<div class="clear"></div>
