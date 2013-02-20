@@ -5,6 +5,7 @@ Use this repo as a starting point for your date night campaign. Take a look the 
 
 
 -
+The content on each subpage (lightbox) can be found in the _content_ folder
 - _Original Site Built by [DBA](http://dbaworldwide.com)_
 - @sammyk was lead developer
 - @jakeleboeuf made some updates
