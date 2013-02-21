@@ -32,10 +32,7 @@ Update all the Meta fields:
     $modal_height = 520;
 
 
-Update the content in each slide:
-
-Edit the html inside `slide_01`
-
+Update the content in each slide by editing the html inside `slide_01`
 
 Update the facebook and twitter urls:
     
