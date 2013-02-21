@@ -11,10 +11,14 @@ The majority of the header's, and also the main site navigation uses PNG's... So
 
 
 **_Here's a list of the content files that need to be updated:_**
--     'about.html'
--     'concierge.html'
--     'contact.html'
+    var view = {
+      title: "Joe",
+      calc: function () {
+        return 2 + 4;
+      }
+    };
 
+    var output = Mustache.render("{{title}} spends {{calc}}", view);
 
 Site Credits
 ------------
