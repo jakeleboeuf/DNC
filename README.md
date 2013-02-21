@@ -11,8 +11,13 @@ The majority of the header's, and also the main site navigation uses PNG's... So
 
 
 **_Here's a list of the content files that need to be updated:_**
-Files inside the _content_ folder: `about.html`, `concierge.html`, `contact.html`, `corporate.html`, `default.html`, `home.html`, `legal.html`, `locations.html`, `participate.html`, `program.html`, `slide_01.html`, `support.html`
-Files inside the `dev_Assets > PSD > website_asset` folder: `about.html`, `concierge.html`, `contact.html`, `corporate.html`, `default.html`
+
+**Files inside the _content_ folder:** 
+`about.html`, `concierge.html`, `contact.html`, `corporate.html`, `default.html`, `home.html`, `legal.html`, `locations.html`, `participate.html`, `program.html`, `slide_01.html`, `support.html`
+
+**Files inside the `dev_Assets > PSD > website_asset` folder:** 
+`featureImage.psd`, `concierge.html`, `contact.html`, `corporate.html`, `default.html`
+
 
 Site Credits
 ------------
