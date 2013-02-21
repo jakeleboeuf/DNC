@@ -11,14 +11,14 @@ The majority of the header's, and also the main site navigation uses PNG's... So
 
 
 **_Here's a list of the content files that need to be updated:_**
-    about.html
-		concierge.html
-		contact.html
-		corporate.html
-		default.html
-		home.html
-		legal.html
-		locations.html
+    'about.html'
+    concierge.html
+    contact.html
+    corporate.html
+    default.html
+    home.html
+    legal.html
+    locations.html
 
 Site Credits
 ------------
