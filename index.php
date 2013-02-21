@@ -174,7 +174,7 @@ if( !empty($favicon) )
 <div class="socialDiv">
 	<ul>
     	<li><a href="http://www.facebook.com/DateNightDenver" target="_blank">facebook</a></li>
-        <li><a href="http://twitter.com/datenightdenver" target="_blank">twitter</a></li>
+      <li><a href="http://twitter.com/datenightdenver" target="_blank">twitter</a></li>
     </ul>
 </div>
 <ul id="footerMenu">
@@ -185,9 +185,9 @@ if( !empty($favicon) )
 </ul>
 
 <div class="social">
-<div style="margin-right: 15px; display:block; margin-top:-1px;float:left;" class="fb-like" data-href="http://www.facebook.com/DateNightDenver" data-send="false" data-layout="button_count" data-width="100" data-show-faces="true"></div>
-    <div style="display:block; margin-top:-1px;float:left;"><a href="https://twitter.com/DateNightDenver" class="twitter-follow-button" data-show-count="true" data-lang="en" data-show-screen-name="false">Follow @datenightpdx</a></div>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	<div style="margin-right: 15px; display:block; margin-top:-1px;float:left;" class="fb-like" data-href="http://www.facebook.com/DateNightDenver" data-send="false" data-layout="button_count" data-width="100" data-show-faces="true"></div>
+  <div style="display:block; margin-top:-1px;float:left;"><a href="https://twitter.com/DateNightDenver" class="twitter-follow-button" data-show-count="true" data-lang="en" data-show-screen-name="false">Follow @datenightpdx</a></div>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>
 
 </div>
