@@ -12,7 +12,7 @@ The content on each subpage (lightbox) can be found in the `content` folder.
 The majority of the header's, and also the main site navigation uses PNG's... Soooo that's lame. The best way to update those headers/nav items is to open up the PSD and save out a new png. Then make the necessary changes to the CSS.
 
 
-###Stuff inside `index.php` that need to be updated:
+###_Stuff inside `index.php` that need to be updated:_
 
 **[1] Make sure you update the form action to the correct mailchimp list.**
 
@@ -51,11 +51,11 @@ The majority of the header's, and also the main site navigation uses PNG's... So
     <a href="http://gloo.us/join/c0e4d3a80422"><img src="images/327x160.png" width="327px" height="160px"></a>
 
 
-###Files inside the `content` folder to update:
+###_Files inside the `content` folder to update:_
 
 `about.html`, `concierge.html`, `contact.html`, `corporate.html`, `default.html`, `home.html`, `legal.html`, `locations.html`, `participate.html`, `program.html`, `slide_01.html`, `support.html`
 
-###Files inside the `dev_Assets > PSD > website_asset` folder to update:
+###_Files inside the `dev_Assets > PSD > website_asset` folder to update:_
 
 `featureImage.psd`, `4dates.psd`, `bodyBg_pdx.psd`, `navigation.psd`, `pageHeader.psd`
 
