@@ -31,6 +31,12 @@ Update all the Meta fields:
     $modal_width = 750;
     $modal_height = 520;
 
+
+Update the content in each slide:
+
+Edit the html inside `slide_01`
+
+
 Update the facebook and twitter urls:
     
     <li><a href="http://www.facebook.com/DateNightDenver" target="_blank">facebook</a></li>
