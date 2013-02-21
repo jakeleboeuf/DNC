@@ -11,9 +11,9 @@ The majority of the header's, and also the main site navigation uses PNG's... So
 
 
 **_Here's a list of the content files that need to be updated:_**
-- 'about.html'
-- 'concierge.html'
-- 'contact.html'
+-     'about.html'
+-     'concierge.html'
+-     'contact.html'
 
 
 Site Credits
