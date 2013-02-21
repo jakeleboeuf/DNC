@@ -79,6 +79,5 @@ Site Credits
 ------------
 
 - Original Site Built by [DBA](http://dbaworldwide.com)
-- Lead Developer: (@sammyk)[http://github.com/SammyK]
-- Visual Updates: [@jakeleboeuf](http://github.com/jakeleboeuf) _of (jklb.co)[http://jakeleboeuf.com]_
->>>>>>> denver
+- Lead Developer: [@sammyk](http://github.com/SammyK)
+- Visual Updates: [@jakeleboeuf](http://github.com/jakeleboeuf) _of [jklb.co](http://jakeleboeuf.com)_
