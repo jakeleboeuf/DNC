@@ -10,7 +10,7 @@ The content on each subpage (lightbox) can be found in the _content_ folder.
 The majority of the header's, and also the main site navigation uses PNG's... Soooo that's lame. The best way to update those headers/nav items is to open up the PSD and save out a new png. Then make the necessary changes to the CSS.
 
 
-##_Here's a list of the content files that need to be updated:_
+**_Here's a list of the content files that need to be updated:_**
 - 'about.html'
 - 'concierge.html'
 - 'contact.html'
