@@ -22,12 +22,8 @@ The majority of the header's, and also the main site navigation uses PNG's... So
     $meta_title = 'Date Night Denver :: Get Your Date Night On!';
     $meta_description = 'The Date Night Denver wants to know... When was your last Date? How you answer that question will speak volumes about your most important relationship? Why? Good relationships don’t just happen.  Intentional fun, planned time and strong skills improve relationships between couples, parents and children, co-workers, family and friends.';
     $meta_keywords = 'Date Night, Date, Denver, CO, Colorado, Marriage, Commitment, Things to do, Support, Relationship, Awesome, Kewl, Neat';
-    $meta_robots_index = 'index';
-    $meta_robots_follow = 'follow';
-    $favicon = '';
+    $favicon = 'http://datenightdenver.com/images/favicon.ico';
     $site_url = 'http://datenightdenver.com';
-    $modal_width = 750;
-    $modal_height = 520;
 
 
 **[3] Update the content in each slide by editing the html inside `slide_01`**
